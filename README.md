@@ -1,9 +1,9 @@
 # Tinygo + wasm Tuts code
 
-## to build
+## to build (tinygo)
 
 ```
-tinygo build -o wasm.wasm -target wasm ./main.go
+tinygo build -o main.wasm  -no-debug -opt=2 main.go
 
 ```
 

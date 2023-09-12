@@ -1,6 +1,6 @@
 "use strict";
 
-const WASM_URL = "wasm.wasm";
+const WASM_URL = "main.wasm";
 let wasm;
 
 const initWasm = () => {
